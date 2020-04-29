@@ -1,0 +1,167 @@
+# Xournal-Konfigurationsdatei.
+# Diese Datei wird automatisch beim Speichern der Einstellungen erstellt.
+# Seien Sie vorsichtig, wenn Sie diese Datei manuell editieren!
+#
+
+[general]
+# die Bildschirmauflösung, in Pixel pro Inch
+display_dpi=96.00
+# die anfängliche Vergrößerungsstufe, in %
+initial_zoom=158.63
+# Das Fenster beim Starten maximieren (true/false)
+window_maximize=false
+# im Vollbild-Modus starten (true/false)
+window_fullscreen=false
+# Fensterbreite in Pixeln (wenn nicht maximiert)
+window_width=2560
+# Fensterhöhe in Pixeln
+window_height=1399
+# Zunahme der Scrollbar-Schritte (in Pixeln)
+scrollbar_speed=30
+# Zunahme der Schritte im Vergrößerungsdialog
+zoom_dialog_increment=1
+# Multiplikator für die Vergrößerung/Verkleinerung
+zoom_step_factor=1.500
+# continuous view (false = one page, true = continuous, horiz = horizontal)
+view_continuous=true
+# XInput-Erweiterungen verwenden (true/false)
+use_xinput=true
+# Mausbewegungen unterdrücken im XInput-Modus (true/false)
+discard_corepointer=false
+# ignore events from other devices while drawing (true/false)
+ignore_other_devices=true
+# do not worry if device reports button isn't pressed while drawing (true/false)
+ignore_btn_reported_up=true
+# die Radiererspitze immer als Radierer verwenden (true/false)
+use_erasertip=false
+# always map touchscreen device to hand tool (true/false) (requires separate pen and touch devices)
+touchscreen_as_hand_tool=true
+# disable touchscreen device when pen is in proximity (true/false) (requires separate pen and touch devices)
+pen_disables_touch=false
+# name of touchscreen device for touchscreen_as_hand_tool
+touchscreen_device_name=Wacom Pen and multitouch sensor Finger touch
+# die Tasten 2 und 3 wechseln das Werkzeug statt zu zeichnen (hilfreich für bestimmte Grafiktabletts) (true/false)
+buttons_switch_mappings=false
+# automatisch datei.pdf.xoj statt datei.pdf laden (true/false)
+autoload_pdf_xoj=false
+# enable periodic autosaves (true/false)
+autosave_enabled=true
+# delay for periodic autosaves (in seconds)
+autosave_delay=5
+# Standardverzeichnis für Öffnen/Speichern (frei lassen für aktuelles Verzeichnis)
+default_path=/home/jonas/Dokumente/Nextcloud/XournalDateien
+# Drucksensitivität zur Kontrolle der Linienstärke verwenden (true/false)
+pressure_sensitivity=false
+# minimaler Breitenmultiplikator
+width_minimum_multiplier=0.00
+# maximaler Breitenmultiplikator
+width_maximum_multiplier=1.25
+# Bedienelemente von oben nach unten
+# Zulässige Werte: drawarea menu main_toolbar pen_toolbar statusbar
+interface_order=menu main_toolbar pen_toolbar drawarea statusbar
+# Bedienelemente im Vollbild-Modus, von oben nach unten
+interface_fullscreen=main_toolbar pen_toolbar drawarea
+# Scrollbar auf der linken Seite (true/false)
+interface_lefthanded=false
+# unerwünschte Elemente der Menü- oder Werkzeugleiste ausblenden (true/false)
+shorten_menus=false
+# auszublendende Bedienelemente (anpassen auf eigene Gefahr!)
+# siehe Quellcode-Datei xo-interface.c für eine Liste der Bezeichnungen
+shorten_menu_items=optionsProgressiveBG optionsLeftHanded optionsButtonSwitchMapping
+# Textmarker-Durchsichtigkeit (zwischen 0 und 1, Standard 0.5)
+# Vorsichtig: Durchsichtigkeitslevel wird nicht in xoj-Dateien gespeichert!
+highlighter_opacity=0.50
+# Einstellungen beim Beenden automatisch speichern (true/false)
+autosave_prefs=true
+# force PDF rendering through cairo (slower but nicer) (true/false)
+poppler_force_cairo=false
+# prefer xournal's own PDF code for exporting PDFs (true/false)
+exportpdf_prefer_legacy=false
+
+[paper]
+# Standard-Seitenbreite, in Punkten (1/72 in)
+width=595.27
+# Standard-Seitenhöhe, in Punkten (1/72 in)
+height=841.89
+# Standard-Papierfarbe
+color=white
+# Standard-Papierart (blanko, liniert mit Rand, liniert oder kariert)
+style=graph
+# Änderungen der Papierart auf alle Seiten anwenden (true/false)
+apply_all=false
+# bevorzugte Einheit (cm, in, px, pt)
+default_unit=cm
+# Papiermuster beim Drucken oder PDF-Export berücksichtigen (true/false)
+print_ruling=true
+# when creating a new page, duplicate a PDF or image background instead of using default paper (true/false)
+new_page_duplicates_bg=false
+# Hintergrundbilder in Echtzeit aktualisieren (true/false)
+progressive_bg=true
+# Bitmap-Auflösung der mit ghostscript dargestellten PS/PDF-Hintergründe (dpi)
+gs_bitmap_dpi=144
+# Bitmap-Auflösung der PDF-Hintergründe beim Drucken mit libgnomeprint (dpi)
+pdftoppm_printing_dpi=150
+
+[tools]
+# ausgewähltes Werkzeug nach dem Start (pen, eraser, highlighter, selectrect, vertspace, hand)
+startup_tool=pen
+# Use the pencil from cursor theme instead of a color dot (true/false)
+pen_cursor=false
+# Standard Stiftfarbe
+pen_color=black
+# Standard Stiftdicke (fein = 1, mittel = 2, dick = 3)
+pen_thickness=2
+# Stift ist standardmäßig im Lineal-Modus (true/false)
+pen_ruler=false
+# Stift ist standardmäßig im Umrisserkennungsmodus (true/false)
+pen_recognizer=false
+# Standard Radiererdicke (fein = 1, mittel = 2, dick = 3)
+eraser_thickness=2
+# Standard Radierermodus (normal = 0, weiß = 1, ganze Linien = 2)
+eraser_mode=2
+# Standard Textmarkerfarbe
+highlighter_color=yellow
+# Standard Textmarkerdicke (fein = 1, mittel = 2, dick = 3)
+highlighter_thickness=2
+# Textmarker ist standardmäßig im Lineal-Modus (true/false)
+highlighter_ruler=false
+# Textmarker ist standardmäßig im Umrisserkennungsmodus (true/false)
+highlighter_recognizer=false
+# Werkzeug auf Taste 2 (pen, eraser, highlighter, text, selectrect, vertspace, hand)
+btn2_tool=eraser
+# Werkzeug auf Taste 2 ist mit Hauptpinsel verknüpft (true/false) (überschreibt  alle anderen Einstellungen)
+btn2_linked=true
+# Taste 2 Pinselfarbe (nur für Stift oder Textmarker)
+btn2_color=white
+# Taste 2 Pinseldicke (nur Stift, Radierer oder Textmarker)
+btn2_thickness=2
+# Taste 2 Lineal-Modus (true/false) (nur für Stift oder Textmarker)
+btn2_ruler=false
+# Taste 2 Umrisserkennungsmodus (true/false) (nur Stift oder Textmarker)
+btn2_recognizer=false
+# Taste 2 Radierermodus (nur Radierer)
+btn2_erasermode=2
+# Werkzeug auf Taste 3 (pen, eraser, highlighter, text, selectrect, vertspace, hand)
+btn3_tool=eraser
+# Werkzeug auf Taste 3 ist mit Hauptpinsel verknüpft (true/false) (überschreibt  alle anderen Einstellungen)
+btn3_linked=true
+# Taste 3 Pinselfarbe (nur für Stift oder Textmarker)
+btn3_color=white
+# Taste 3 Pinseldicke (nur Stift, Radierer oder Textmarker)
+btn3_thickness=2
+# Taste 3 Lineal-Modus (true/false) (nur für Stift oder Textmarker)
+btn3_ruler=false
+# Taste 3 Umrisserkennungsmodus (true/false) (nur Stift oder Textmarker)
+btn3_recognizer=false
+# Taste 3 Radierermodus (nur Radierer)
+btn3_erasermode=2
+# Dicke der verschiedenen Stifte (in Punkten, 1 pt = 1/72 in)
+pen_thicknesses=0.42;0.85;1.41;2.26;5.67
+# Dicke der verschiedenen Radierer (in Punkten, 1 pt = 1/72 in)
+eraser_thicknesses=2.83;8.50;19.84
+# Dicke der verschiedenen Textmarker (in Punkten, 1 pt = 1/72 in)
+highlighter_thicknesses=2.83;8.50;19.84
+# Standard-Schriftart
+default_font=Sans
+# Standard-Schriftgröße
+default_font_size=12.0
