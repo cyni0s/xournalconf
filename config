@@ -62,7 +62,7 @@ interface_order=menu main_toolbar pen_toolbar drawarea statusbar
 # Bedienelemente im Vollbild-Modus, von oben nach unten
 interface_fullscreen=main_toolbar pen_toolbar drawarea
 # Scrollbar auf der linken Seite (true/false)
-interface_lefthanded=false
+interface_lefthanded=true
 # unerwünschte Elemente der Menü- oder Werkzeugleiste ausblenden (true/false)
 shorten_menus=false
 # auszublendende Bedienelemente (anpassen auf eigene Gefahr!)
