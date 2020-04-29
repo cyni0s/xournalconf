@@ -49,7 +49,7 @@ autosave_enabled=true
 # delay for periodic autosaves (in seconds)
 autosave_delay=5
 # Standardverzeichnis für Öffnen/Speichern (frei lassen für aktuelles Verzeichnis)
-default_path=/home/jonas/Dokumente/Nextcloud/XournalDateien
+default_path=/home/cyni0s/Nextcloud/10_private-Documents/100_Studium/trix/
 # Drucksensitivität zur Kontrolle der Linienstärke verwenden (true/false)
 pressure_sensitivity=false
 # minimaler Breitenmultiplikator
